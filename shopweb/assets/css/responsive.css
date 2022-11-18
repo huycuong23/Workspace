@@ -1,0 +1,153 @@
+/* moblie & tablet width < 1024 */
+@media screen and (max-width: 64rem) {
+  .grid__column-2 {
+    display: none;
+  }
+  .grid__column-10 {
+    width: 98%;
+  }
+  .home-filter {
+    max-width: 100%;
+  }
+}
+
+/* tablet >= 740 and < 1024 */
+@media screen and (min-width: 46.25em) and (max-width: 64em) {
+  .grid__column-2-0 {
+    width: 25%;
+    height: calc(100% - 10px);
+  }
+
+  .footer__dowload-qr {
+    display: none;
+  }
+  .footer__list-item-link {
+    display: block;
+    font-size: 1.6rem;
+  }
+  .footer__list {
+    width: 100%;
+  }
+  .footer__heading {
+    font-size: 2rem;
+  }
+  .home-product-item-tb {
+    display: none;
+  }
+  .footer__heading {
+    font-size: 1.8rem;
+  }
+  .footer,
+  .app__container {
+    margin-left: 12px;
+  }
+  .header__logo {
+    top: 0;
+    margin-left: 20px;
+    width: 160px;
+  }
+}
+
+/* Mobile < 740 */
+@media screen and (max-width: 46.1875em) {
+  .header__search-select-laybel {
+    display: none;
+  }
+  .header__search-history {
+    width: 305px;
+    height: auto;
+  }
+  .header__logo-img {
+    display: none;
+  }
+  .header__search-select-icon {
+    right: 10px;
+  }
+  .home-filter {
+    margin-top: 15px;
+    width: 100vw;
+  }
+  .header-with-search {
+    display: block;
+    padding: 60px;
+  }
+  .header__cart {
+    width: 100%;
+    left: 160px;
+  }
+
+  .header__navbar {
+    display: none;
+  }
+  .header_navg {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    top: 80px;
+    color: var(--white-color);
+  }
+  .nav-mobile {
+    display: block;
+  }
+  .grid__column-2-0 {
+    width: 100%;
+  }
+  .grid {
+    width: 400px;
+    padding-left: 4px;
+    overflow: hidden;
+  }
+  .home-product__pagination {
+    width: 100px;
+  }
+  .home-filter__label {
+    display: none;
+  }
+  .home-header {
+    display: none;
+  }
+  .ti-angle-down.home-filter-btn-icon {
+    display: none;
+  }
+  .footer .grid__column-2-0 {
+    width: 100%;
+  }
+  .header__cart-wrap {
+    padding: 0;
+    top: -34px;
+    right: -10px;
+  }
+  .home-filter-btn-sl {
+    display: none;
+  }
+  .home-filter-btn {
+    width: 33.3333%;
+  }
+  .header_navg.ti-menu {
+    top: 5px;
+    font-size: 3rem;
+    left: 10;
+    padding: 10px;
+    color: white;
+  }
+  .header__logo {
+    width: 100%;
+  }
+  .pagination.home-product__pagination {
+    display: none;
+  }
+  .footer .header .app__container {
+    overflow-y: hidden;
+  }
+  .header__search::after {
+    display: block;
+  }
+  .header__cart-list {
+    top: 55px;
+  }
+}
+@media screen and (max-width: 20.1em) {
+  .header__cart {
+    left: 130px;
+  }
+}
